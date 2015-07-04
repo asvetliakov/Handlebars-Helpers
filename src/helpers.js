@@ -1,6 +1,6 @@
 (function (root, factory) {
     if (typeof exports === 'object') {
-        module.exports = factory(require('handlebars'));
+        module.exports = factory(require('handlebars/runtime'));
     } else if (typeof define === 'function' && define.amd) {
         define(['handlebars'], factory);
     } else {
